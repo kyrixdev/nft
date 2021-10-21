@@ -912,6 +912,6 @@ span.badge:hover{
 .button-mat:hover .psuedo-text {
   color: #ffffff;
 }
-#container:hover .button-mat:before{
+.timeline-container:hover .button-mat:before{
   transform: translate(-45%, -34%) translateZ(0);
 }
