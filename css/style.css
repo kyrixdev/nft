@@ -277,7 +277,7 @@ ul.cycle-ul {
   height: 15px;
   text-align: center;
   font-size: 2rem;
-  background: #30b571;
+  background: #9765f1;
   transform: rotateZ(45deg);
 }
 .timeline .timeline-container .timeline-icon i {
@@ -330,19 +330,19 @@ ul.cycle-ul {
   font-size: 11px;
 }
 .timeline .timeline-container.primary .badge, .timeline .timeline-container.primary .timeline-icon {
-  background: #0e6a60 !important;
+  background: #673ab7 !important;
 }
 .timeline .timeline-container.info .badge, .timeline .timeline-container.info .timeline-icon {
-  background: #32e27f !important;
+  background: #aa7aff !important;
 }
 .timeline .timeline-container.success .badge, .timeline .timeline-container.success .timeline-icon {
-  background: #1eb688 !important;
+  background: #7845d3 !important;
 }
 .timeline .timeline-container.warning .badge, .timeline .timeline-container.warning .timeline-icon {
-  background: #26c885 !important;
+  background: #8652e1 !important;
 }
 .timeline .timeline-container.danger .badge, .timeline .timeline-container.danger .timeline-icon {
-  background: #15a28c !important;
+  background: #7241c9 !important;
 }
 
 .timeline-bg {
@@ -863,7 +863,7 @@ span.badge:hover{
 .button-mat:before {
   content: "";
   display: block;
-  background: #ffffff;
+  background: #673ab7;
   position: absolute;
   width: 200%;
   height: 500%;
@@ -871,7 +871,7 @@ span.badge:hover{
   transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
 }
 .button-mat:hover {
-  color: #0e6a60;
+  color: #009688;
 }
 .btn--5 {
   box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
@@ -894,7 +894,7 @@ span.badge:hover{
   font-weight: 700;
   position: relative;
   will-change: transform;
-  border: 1px solid #0e6a60;
+  border: 1px solid #3b1444;
 }
 .psuedo-text {
   color: #ffffff;
@@ -910,8 +910,8 @@ span.badge:hover{
   transition-delay: 0.1s;
 }
 .button-mat:hover .psuedo-text {
-  color: #0e6a60;
+  color: #ffffff;
 }
-.timeline-container:hover > .button-mat{
+#container:hover .button-mat:before{
   transform: translate(-45%, -34%) translateZ(0);
 }
