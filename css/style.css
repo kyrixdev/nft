@@ -915,3 +915,77 @@ span.badge:hover{
 .timeline-container:hover .button-mat:before{
   transform: translate(-45%, -34%) translateZ(0);
 }
+
+.container-mint {
+  position: relative;
+  height: 26vw;
+}
+.img-mint {
+  position: absolute;
+  animation-name: crossfade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 11s;
+  width: 45%;
+}
+.img-mint:nth-of-type(1) {
+  animation-delay: 9s;
+}
+.img-mint:nth-of-type(2) {
+  animation-delay: 6s;
+}
+.img-mint:nth-of-type(3) {
+  animation-delay: 3s;
+}
+.img-mint:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+@keyframes crossfade {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+.pr{
+  font-family: "popine";
+}
+input.number{
+  background: transparent;
+  color: white;
+  border: 2px solid #8743ff;
+  text-align: center;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: 900;
+  font-family: 'Quicksand';
+}
+.mp{
+  border: 2px solid #6f1eff;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #ffffff17;
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+}
+.btn-gm-2{
+  color: #ad80ff;
+  align-self: center;
+  font-weight: 600;
+  background: #10063a;
+  box-shadow: 0 0 20px 0px #203ae791;
+  font-family: 'Poppins', sans-serif;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
